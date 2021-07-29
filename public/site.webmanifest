@@ -1,6 +1,7 @@
-{{
+{
   "short_name": "Siddharth Arumugam",
   "name": "Siddharth Arumugam - Portfolio",
+  "description": "Siddharth Arumugam (0xMrNight) is a Full stack Web Dev and Cyber Sec researcher.",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -17,14 +18,14 @@
       "type": "image/png",
       "sizes": "512x512"
     },
-	{
-	  "src": "/apple-touch-icon.png",
-	  "type": "image/png",
+    {
+      "src": "/apple-touch-icon.png",
+      "type": "image/png",
       "sizes": "180x180"
-	}
+    }
   ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
-}}
+}
