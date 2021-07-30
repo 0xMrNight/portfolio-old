@@ -1,24 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Code|Russo+One&display=swap");
-
-:root {
-  /* Nord Colors */
-  --red: #bf616a;
-  --orange: #d08770;
-  --yellow: #ebcb8b;
-  --green: #a3be8c;
-  --pink: #b48ead;
-}
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Russo+One&display=swap");
+@import url("./nord.css");
 
 html,
 body {
   padding: 1.5em;
   margin: 0;
-  background-color: #3b4252;
-  color: #d8dee9;
+  background-color: var(--nord0);
+  color: var(--nord6);
   font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
 }
 
 a,
 a:visited {
-  color: var(--green);
+  color: var(--nord8);
 }
