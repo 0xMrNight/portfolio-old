@@ -6,7 +6,7 @@ export default function custom404() {
   return (
     <>
       <Head>
-        <meta name="robots" content="noindex, nofollow" />
+        <meta name="robots" content="noindex" />
         <title> 404 - Page Not Found </title>
       </Head>
       <div className={styles.container}>
