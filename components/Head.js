@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const theHead = ({ title, desc, og_url }) => {
+const theHead = ({ title, desc, og_title, og_url }) => {
   return (
     <Head>
       <meta
@@ -17,6 +17,7 @@ const theHead = ({ title, desc, og_url }) => {
       <meta property="og:locale" content="en-US" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="0xMrNight" />
+      <meta property="og:title" content={og_title} />
       <meta property="og:description" content={desc} />
 
       <meta name="twitter:card" content="summary" />

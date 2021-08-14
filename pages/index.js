@@ -7,6 +7,7 @@ export default function Home() {
       <Head
         title="Siddharth Arumugam"
         desc="Siddharth Arumugam - Full stack Web Dev | Cyber Sec researcher."
+        og_title="Siddharth Arumugam :: 0xMrNight"
         og_url="https://mrnight.tk/"
       />
       <main>
