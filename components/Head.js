@@ -14,8 +14,10 @@ const theHead = ({ title, desc, og_url }) => {
 
       <link rel="canonical" href={og_url} />
       <meta property="og:url" content={og_url} />
-      <meta property="og:locale" content="en_US" />
+      <meta property="og:locale" content="en-US" />
       <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="0xMrNight" />
+      <meta property="og:description" content={desc} />
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@0xMrNight" />
