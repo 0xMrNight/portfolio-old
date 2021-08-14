@@ -18,7 +18,13 @@ const theHead = ({ title, desc, og_title, og_url, og_image }) => {
       <meta property="og:site_name" content="0xMrNight" />
       <meta property="og:title" content={og_title} />
       <meta property="og:description" content={desc} />
-      if (og_image) {<meta property="og:image" content={og_image} />}
+      if (og_image){" "}
+      {
+        <>
+          <meta property="og:image" content={og_image} />
+          <meta property="twitter:image" content={og_image} />
+        </>
+      }
       {/* Twitter tags */}
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@0xMrNight" />
