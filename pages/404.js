@@ -11,8 +11,8 @@ export default function custom404() {
       </Head>
       <div className={styles.container}>
         <h1>
-          <span className="text-red">404</span> -{" "}
-          <span className="text-green">Page not found</span>
+          <span className={`text-red ${styles.errCode}`}>404</span>{" "}
+          <span className={`text-green ${styles.errDesc}`}>Page not found</span>
         </h1>
         <h3 className={styles.desc}>
           {" "}

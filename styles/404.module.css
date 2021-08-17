@@ -1,7 +1,15 @@
 .container {
   text-align: center;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 650px) {
+  .errCode {
+    font-size: 64px;
+  }
 }
 
 .desc {
