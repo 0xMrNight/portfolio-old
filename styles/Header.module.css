@@ -1,0 +1,75 @@
+/* 
+  * Adapted from the header of https://github.com/panr/hugo-theme-terminal 
+  * Made by https://twitter.com/panr 
+*/
+
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+  padding: 40px 40px 0;
+  font-size: 1.2em;
+  max-width: 65vw;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+}
+
+.logo:after {
+  content: "";
+  background: repeating-linear-gradient(
+    90deg,
+    var(--nord8),
+    var(--nord8) 2px,
+    transparent 0,
+    transparent 10px
+  );
+  display: block;
+  width: 100%;
+  right: 10px;
+}
+
+.logo a {
+  color: var(--nord1);
+  background-color: var(--nord8);
+  padding: 6px 12px;
+  flex: 0 0 auto;
+  max-width: 100%;
+  text-decoration: none;
+}
+
+.menu {
+  padding-top: 10px;
+  flex-direction: row;
+}
+
+.menu a,
+.menu a:visited {
+  color: var(--nord4);
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu_inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.menu_inner li {
+  margin: 0;
+  padding: 0 1.2rem 0 0;
+}
