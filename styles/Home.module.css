@@ -37,6 +37,7 @@
 }
 
 .desc {
+  color: var(--nord5);
   font: 1.3rem monospace;
 }
 
