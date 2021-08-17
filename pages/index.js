@@ -19,7 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.intro}>
           <div className={styles.logo}>
-            <Img src={Logo} alt="My Logo" />
+            <Img src={Logo} alt="My Logo" priority={true} />
           </div>
           <div className={styles.title}>
             {" "}
