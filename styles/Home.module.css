@@ -1,8 +1,61 @@
+@media (min-width: 350px) {
+  .main {
+    padding: 3em 1.5em;
+  }
+
+  .logo img {
+    height: 16em !important;
+    width: 16em !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .main {
+    padding: 1.5em 0.75em;
+  }
+
+  .logo img {
+    height: 8em !important;
+    width: 8em !important;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .title {
   text-align: center;
-  font: 3.2em "Russo One", sans-serif;
+  margin: 1.2rem 1rem;
+  font: 3.5rem "Russo One", sans-serif;
 }
 
 .name {
   color: var(--orange);
+}
+
+.desc {
+  font: 1.3rem monospace;
+}
+
+@media (min-width: 850px) {
+  .desc {
+    max-width: 50vw;
+  }
+}
+
+@media (max-width: 850px) {
+  .desc {
+    max-width: 85vw;
+  }
+}
+
+.desc code,
+.desc a {
+  letter-spacing: -0.02rem;
+  color: var(--nord8);
+  font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
+  text-decoration: none;
 }
