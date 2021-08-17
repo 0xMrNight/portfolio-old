@@ -1,4 +1,5 @@
 import styles from "../styles/404.module.css";
+import Header from "../components/Header";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -9,6 +10,7 @@ export default function custom404() {
         <meta name="robots" content="noindex" />
         <title> 404 - Page Not Found </title>
       </Head>
+      <Header />
       <div className={styles.container}>
         <h1>
           <span className={`text-red ${styles.errCode}`}>404</span>{" "}
