@@ -15,15 +15,15 @@ const Header = () => {
           {/* Todo: Make about and contact page */}
           <li>
             {" "}
-            <Link href="https://blog.mrnight.tk/about"> About </Link>{" "}
+            <Link href="https://blog.mrnight.me/about"> About </Link>{" "}
           </li>
           <li>
             {" "}
-            <Link href="https://blog.mrnight.tk/contact"> Contact </Link>{" "}
+            <Link href="https://blog.mrnight.me/contact"> Contact </Link>{" "}
           </li>
           <li>
             {" "}
-            <Link href="https://blog.mrnight.tk/"> Blog </Link>{" "}
+            <Link href="https://blog.mrnight.me/"> Blog </Link>{" "}
           </li>
         </ul>
       </div>
