@@ -1,7 +1,6 @@
 import Head from "../components/Head";
 import Img from "next/image";
 
-import Logo from "../public/img/logo.jpg";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -17,13 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.intro}>
           <div className={styles.logo}>
-            <Img
-              src={Logo}
-              alt="My Logo"
-              loading="eager"
-              placeholder="blur"
-              blurDataURL="/img/logo.jpg"
-            />
+            <Img src="/img/logo.jpg" alt="My Logo" width={256} height={256} />
           </div>
           <div className={styles.title}>
             {" "}
