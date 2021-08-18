@@ -4,7 +4,7 @@
   "description": "Siddharth Arumugam (0xMrNight)'s portfolio",
   "private": true,
   "author": "Siddharth Arumugam <0xmrnight@gmail.com>",
-  "homepage": "https://mrnight.tk",
+  "homepage": "https://mrnight.me",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
