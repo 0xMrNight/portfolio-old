@@ -17,7 +17,13 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.intro}>
           <div className={styles.logo}>
-            <Img src={Logo} alt="My Logo" priority={true} />
+            <Img
+              src={Logo}
+              alt="My Logo"
+              loading="eager"
+              placeholder="blur"
+              blurDataURL="/img/logo.jpg"
+            />
           </div>
           <div className={styles.title}>
             {" "}
