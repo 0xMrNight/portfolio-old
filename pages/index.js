@@ -16,7 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.intro}>
           <div className={styles.logo}>
-            <Img src="/img/logo.jpg" alt="My Logo" width={256} height={256} />
+            <Img src="/img/logo.jpg" alt="My Logo" width={512} height={512} />
           </div>
           <div className={styles.title}>
             {" "}
@@ -29,7 +29,7 @@ export default function Home() {
               <a href="https://twitter.com/0xMrNight" rel="noopener">
                 <code>0xMrNight</code>
               </a>
-              ) is a Full stack web developer, Cybersecurity researcher and
+              ) is a full stack Web developer, Cybersecurity researcher and
               Linux enthusiast.{" "}
             </p>
           </div>
