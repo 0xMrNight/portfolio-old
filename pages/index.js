@@ -1,5 +1,4 @@
 import Head from "../components/Head";
-import Header from "../components/Header";
 import Img from "next/image";
 
 import Logo from "../public/img/logo.jpg";
@@ -15,7 +14,6 @@ export default function Home() {
         og_url="https://mrnight.tk/"
         og_image="/img/logo.jpg"
       />
-      <Header />
       <main className={styles.main}>
         <div className={styles.intro}>
           <div className={styles.logo}>
