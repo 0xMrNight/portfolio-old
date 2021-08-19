@@ -1,7 +1,7 @@
-import Head from "../components/Head";
+import Head from "../src/components/Head";
 import Img from "next/image";
 
-import styles from "../styles/Home.module.css";
+import styles from "../src/styles/Home.module.css";
 
 export default function Home() {
   return (
