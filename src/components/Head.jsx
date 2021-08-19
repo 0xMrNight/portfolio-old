@@ -1,5 +1,5 @@
 import Head from "next/head";
-import site from "../src/site.json";
+import site from "../site.json";
 
 function theHead(props) {
   const { title, desc, og_title, path, og_image } = props;
