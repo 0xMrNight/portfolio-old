@@ -8,6 +8,7 @@ const theHead = ({ title, desc, og_title, og_url, og_image }) => {
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
       <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+      <meta name="theme-color" content="#2e3440" />
       <meta name="description" content={desc} />
       <meta name="author" content="Siddharth Arumugam" />
       <link rel="canonical" href={og_url} />
