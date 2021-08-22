@@ -1,10 +1,12 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import site from "../site.json";
 
-function theHead(props) {
-  const { title, desc, og_title, path, og_image } = props;
+function TheHead(props) {
+  const router = useRouter();
+  const { title, desc, og_title, og_image } = props;
   const metaTitle = og_title ? og_title : title;
-  const url = site.baseURL + path;
+  const url = site.baseURL + router.pathname;
 
   return (
     <Head>
@@ -50,4 +52,4 @@ function theHead(props) {
   );
 }
 
-export default theHead;
+export default TheHead;

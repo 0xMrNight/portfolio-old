@@ -10,7 +10,6 @@ export default function Home() {
         title="Siddharth Arumugam"
         desc="Siddharth Arumugam - Full stack Web Dev | Cyber Sec researcher."
         og_title="Siddharth Arumugam :: 0xMrNight"
-        path="/"
         og_image="/img/logo.jpg"
       />
       <main className={styles.main}>
