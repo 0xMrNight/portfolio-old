@@ -1,4 +1,4 @@
-import Head from "../src/components/Head";
+import Head from "@/components/Head";
 import Img from "next/image";
 
 import styles from "../src/styles/Home.module.css";

@@ -1,4 +1,4 @@
-import styles from "../src/styles/404.module.css";
+import styles from "@/styles/404.module.css";
 import Head from "next/head";
 import Link from "next/link";
 

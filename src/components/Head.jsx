@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
-import site from "../site.json";
+import site from "@/site.json";
 
 function TheHead(props) {
   const router = useRouter();
