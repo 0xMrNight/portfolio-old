@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "description": "Siddharth Arumugam (0xMrNight)'s portfolio",
   "private": true,
-  "author": "Siddharth Arumugam <0xmrnight@gmail.com>",
+  "author": "Siddharth Arumugam <0xmrnight@gmail.com> (https://mrnight.me)",
+  "license": "CC-BY-4.0",
   "homepage": "https://mrnight.me",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap --config next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint"
   },
@@ -20,6 +22,7 @@
   },
   "dependencies": {
     "next": "11.1.0",
+    "next-sitemap": "^1.6.162",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
